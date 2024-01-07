@@ -1,0 +1,126 @@
+
+.empForm{
+    background-color: blueviolet;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:95vh;
+    padding:50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for outer shading */
+    padding: 20px;
+}
+
+.section{
+    padding-left:70px;
+    padding-right:50px;
+    padding-top:30px;
+    padding-bottom:40px;
+    background-color: white;
+    border-radius: 16px;
+    margin:20px;
+}
+
+.button{
+    color:white;
+    background-color: blue;
+    border:0px;
+    padding: 10px;
+    margin-top:20px;
+    border-radius:6px;
+}
+
+.resetButton{
+    color:white;
+    background-color: red;
+    border:0px;
+    padding: 10px;
+    margin-top:20px;
+    border-radius:6px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right:0px;
+}
+
+.form-container{
+    margin-right:10px;
+    box-shadow: 0 4px 8px hsla(0, 26%, 36%, 0.102); /* Box shadow for outer shading */
+    background-color: white;
+    padding:30px;
+    padding-right:-40px;
+    border-radius: 12px;
+}
+
+.head{
+    font-size: 20px;
+    padding:5px;
+    font-family: sans-serif;
+    text-align: center;
+    color:black;
+}
+
+.submit-button {
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #ffffff;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #ea580c;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 0px; 
+}
+
+.input-change{
+    padding:8px;
+}
+
+.input-label {
+    margin-right: 130px;
+    font-family: 'Sans-serif';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+    text-align: start;
+    margin-bottom: 0px;;
+}
+
+.create-button{
+    background-color: green;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ffffff;
+    padding: 8px 16px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 50px;
+}
+
+.submit-button-login {
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #ffffff;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: green;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 30px;
+    border:2px solid black;
+    color:white;
+}
